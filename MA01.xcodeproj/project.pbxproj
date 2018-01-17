@@ -539,10 +539,12 @@
 		BD56E8A2200F6BF0001B7A91 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4MGEF8MN54;
 				INFOPLIST_FILE = MA01/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/bin/pod;
 				PRODUCT_BUNDLE_IDENTIFIER = trellisys.MA01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -552,10 +554,12 @@
 		BD56E8A3200F6BF0001B7A91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4MGEF8MN54;
 				INFOPLIST_FILE = MA01/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = /usr/local/bin/pod;
 				PRODUCT_BUNDLE_IDENTIFIER = trellisys.MA01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
