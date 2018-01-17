@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MA01">
+            <connections>
+                <outlet property="mConvertionTableCell" destination="3" id="6"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="mConvertionTableCell" id="3" customClass="ConvertionTableCell">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3" id="MxQ-f6-s5g">
+                <rect key="frame" x="0.0" y="0.0" width="768" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="50"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Unit" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4">
+                        <rect key="frame" x="10" y="10" width="300" height="29.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="300" id="soB-sL-1dR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="0.0000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5">
+                        <rect key="frame" x="458" y="10" width="300" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="300" id="DW3-qa-Yzf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="9" secondAttribute="trailing" id="0o6-bW-rfO"/>
+                    <constraint firstAttribute="bottom" secondItem="4" secondAttribute="bottom" constant="10" id="FHZ-kA-DyU"/>
+                    <constraint firstAttribute="trailing" secondItem="5" secondAttribute="trailing" constant="10" id="IwH-sy-yyH"/>
+                    <constraint firstItem="9" firstAttribute="leading" secondItem="MxQ-f6-s5g" secondAttribute="leading" id="UMi-bc-Jq1"/>
+                    <constraint firstItem="9" firstAttribute="top" secondItem="MxQ-f6-s5g" secondAttribute="top" id="Zac-jM-agS"/>
+                    <constraint firstAttribute="bottom" secondItem="5" secondAttribute="bottom" constant="10" id="ZmF-fT-f5K"/>
+                    <constraint firstAttribute="bottom" secondItem="9" secondAttribute="bottom" id="jcC-Bi-Vbb"/>
+                    <constraint firstItem="4" firstAttribute="top" secondItem="MxQ-f6-s5g" secondAttribute="top" constant="10" id="ohO-vw-Mwm"/>
+                    <constraint firstItem="5" firstAttribute="top" secondItem="MxQ-f6-s5g" secondAttribute="top" constant="10" id="uJa-3R-LI8"/>
+                    <constraint firstItem="4" firstAttribute="leading" secondItem="MxQ-f6-s5g" secondAttribute="leading" constant="10" id="wGW-Ef-6Xi"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="UnitLabel" destination="4" id="7"/>
+                <outlet property="UnitValueLabel" destination="5" id="8"/>
+                <outlet property="backgroundLayer" destination="9" id="10"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
