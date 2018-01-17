@@ -14,6 +14,6 @@ s.author           = { 'Poornima-Trell' => 'poornima@trellisys.net' }
 s.source           = { :git => 'https://github.com/Poornima-Trell/MA01.git', :tag => s.version.to_s }
 s.framework = 'UIKit','Foundation'
 s.ios.deployment_target = '10.0'
-s.source_files = 'MA01/**/*'
+s.source_files = 'MA01/*.{h,m}'
 s.resources = ['MA01/*.*/*.storyboard','MA01/**/*.{png,jpeg,jpg,storyboard,xib}']
 end
