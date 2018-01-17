@@ -15,5 +15,5 @@ s.source           = { :git => 'https://github.com/Poornima-Trell/MA01.git', :ta
 s.framework = 'UIKit','Foundation'
 s.ios.deployment_target = '10.0'
 s.source_files = 'MA01/**/*'
-s.resources = "MA01/**/*.{png,jpeg,jpg,storyboard,xib}"
+s.resources = ['MA01/*.*/*.storyboard','MA01/**/*.{png,jpeg,jpg,storyboard,xib}']
 end
