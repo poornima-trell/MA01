@@ -209,6 +209,21 @@
                         <viewLayoutGuide key="safeArea" id="h3q-9X-LMe"/>
                     </view>
                     <navigationItem key="navigationItem" id="Qd1-RL-aPP"/>
+                    <connections>
+                        <outlet property="BackgroundImage" destination="IYf-6Q-AHc" id="taD-Py-rYr"/>
+                        <outlet property="ConvertionTable" destination="0lz-or-bBL" id="Rv3-Ru-dKm"/>
+                        <outlet property="OptionConverterImage" destination="4ed-iJ-J7q" id="WIX-RA-dCN"/>
+                        <outlet property="OptionImage" destination="ERr-Ul-GvA" id="MPF-ru-C6E"/>
+                        <outlet property="OptionLabel" destination="XeH-4v-8RM" id="hvF-AT-xx8"/>
+                        <outlet property="OptionsView" destination="cZD-vd-Afz" id="Ajo-tJ-taI"/>
+                        <outlet property="SelectedUnitOptionLabel" destination="An9-Re-pPq" id="8KW-iy-WMd"/>
+                        <outlet property="UnitNameCaptionLabel" destination="g5V-QN-ovy" id="IcJ-2B-sMq"/>
+                        <outlet property="UnitSelectionButton" destination="aLf-lb-jhn" id="yaz-0h-SxG"/>
+                        <outlet property="UnitValueCaptionLabel" destination="GdX-zP-V8y" id="xLA-ya-x4b"/>
+                        <outlet property="UnitValueTextField" destination="WZu-ud-Tit" id="E5d-tS-5EE"/>
+                        <outlet property="optionPicker" destination="JrS-7G-QXc" id="os9-cQ-kOX"/>
+                        <outlet property="pickerActionButton" destination="9CV-TB-jNZ" id="a3e-Je-VVZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
