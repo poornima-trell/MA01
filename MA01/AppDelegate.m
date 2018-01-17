@@ -7,16 +7,22 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
-
+@synthesize window,navController,homeScreen;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    self.homeScreen = [storyboard instantiateViewControllerWithIdentifier:@"MA01"];
+    self.navController = [[UINavigationController alloc] initWithRootViewController:self.homeScreen];
+    [self.window setRootViewController:navController];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
