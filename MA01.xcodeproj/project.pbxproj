@@ -148,6 +148,7 @@
 		BD56E877200F6BEF001B7A91 /* MA01 */ = {
 			isa = PBXGroup;
 			children = (
+				BD56E967200FD0C0001B7A91 /* Resources */,
 				BD56E8CF200F6CBC001B7A91 /* MA01.h */,
 				BD56E8C5200F6CBB001B7A91 /* MA01.m */,
 				BD56E8C6200F6CBC001B7A91 /* MA01.xib */,
@@ -166,7 +167,6 @@
 				BD56E8B7200F6CA8001B7A91 /* ConvertionTableCell.h */,
 				BD56E8B6200F6CA8001B7A91 /* ConvertionTableCell.m */,
 				BD56E8B8200F6CA8001B7A91 /* ConvertionTableCell.xib */,
-				BD56E8AA200F6CA8001B7A91 /* images */,
 				BD56E8B5200F6CA8001B7A91 /* LengthStrategy.h */,
 				BD56E8B3200F6CA8001B7A91 /* LengthStrategy.m */,
 				BD56E878200F6BEF001B7A91 /* AppDelegate.h */,
@@ -174,7 +174,6 @@
 				BD56E87B200F6BEF001B7A91 /* ViewController.h */,
 				BD56E87C200F6BEF001B7A91 /* ViewController.m */,
 				BD56E87E200F6BEF001B7A91 /* Main.storyboard */,
-				BD56E881200F6BEF001B7A91 /* Assets.xcassets */,
 				BD56E883200F6BEF001B7A91 /* LaunchScreen.storyboard */,
 				BD56E886200F6BEF001B7A91 /* Info.plist */,
 				BD56E887200F6BEF001B7A91 /* main.m */,
@@ -213,6 +212,15 @@
 				BD56E8B2200F6CA8001B7A91 /* down_icon.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		BD56E967200FD0C0001B7A91 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD56E8AA200F6CA8001B7A91 /* images */,
+				BD56E881200F6BEF001B7A91 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
